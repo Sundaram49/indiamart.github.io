@@ -1,0 +1,242 @@
+*{
+    margin: 0px ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+.title-pase h2{
+    padding: 10px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details ul{
+    display: flex;
+
+}
+ .details ul li{
+    list-style: none;
+    border-right: 1px solid black;
+}
+
+.details .mob
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
+
+.card{
+    margin: 20px;
+}
+
+.card-items{
+    display: flex;
+    margin:50px;
+}
+.card img{
+    height: 75%;
+    
+}
+.card a{
+    text-decoration: none;
+    color:white;
+}
+.card-body{
+    background: #000;
+    opacity: .7;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.cd{
+    display: flex;
+    align-items: center;
+}
+.cd i {
+
+    height: 50px;
+    width: 50px;
+    color: blueviolet;
+   background: #0000002b;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin: 10px;
+}
+
+.about-cd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.pd-srv{
+display: flex;
+justify-content: center;
+}
+.box{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.rat-rev{
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+}
+.ttl{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.rat-s{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.rat-s span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.rat-s i{
+  color: rgba(139, 139, 36, 0.657);
+  font-size: 2rem;
+}
+.rat-s p{
+    font-size: 1.5rem;
+
+}
+
+.rat-g{
+    line-height: 2rem;
+}
+.rat-g .five span,.user-res span{
+ border-left: 250px solid green;
+ border-radius: 5px;
+}
+.rat-g span {
+    border-left: 250px solid rgba(139, 139, 36, 0.083);
+    
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.rev-title{
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+.reviver {
+    display: flex;
+
+}
+
+.r-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.reviver .like{
+    display: flex;
+    justify-content: space-between;
+}
+
+.like div{
+ border-right: 1px solid ;
+ padding-right: 20px;
+}
+.like div:last-child{
+    border: none;
+}
+
+.touch{
+ background: rgb(11, 11, 91);
+ color: rgba(255, 255, 255, 0.834);
+ padding: 5px 20px;
+ font-size: 2rem;
+ font-weight: bold;
+
+}
+.comp-det{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.comp-det a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.817);
+}
+ .title{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+.grid .left{
+    width: 300px;
+}
+
+.Atlantis{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.reach{
+    padding: 10px;
+}
+
+.form{
+    margin: 50px;
+}
+form div:first-child{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(6, 6, 117);
+}
+form div:first-child span{
+    font-weight: 500;
+}
+
+.footer{
+    display:flex; 
+    justify-content: space-between;
+    background: #0000004c;
+    padding: 20px;
+}
+
+
+.card-items {
+ 
+}
